@@ -2,9 +2,10 @@
 This is a single page applicaton that allows the user to view. In addition, the user can RSVP to events, view all events created by other user, view events they've RSVPed to, and edit or delete events they've created.
 
 ## Important Links
-  - [Deployed Web Apllication](https://ga-zero-to-hero.github.io/beehive-client/)
-  - [Deployed back end API](https://tranquil-tor-91715.herokuapp.com/)
-  - [Beehive API](https://github.com/ga-zero-to-hero/beehive-api)
+- [Deployed front end client](https://tylerr36.github.io/beehive-client/)
+- [Front end client repository](https://github.com/tylerr36/beehive-client)
+- [Deployed back end API](https://tranquil-tor-91715.herokuapp.com/)
+- [GitHub Repo for project's back end](https://github.com/tylerr36/beehive-api)
 
 ## Technologies Used
   - Node.js
