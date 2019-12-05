@@ -1,0 +1,27 @@
+<form id="delete-listing">
+  <legend>Destroy Listing</legend>
+  <input id="destroy-listing" required type="hidden" name="listing[id]" value={{listing.id}}>
+  <button>Destroy Listing</button>
+</form>
+
+<form id="update-listing">
+  <legend>Update A Listing</legend>
+  <input required id="listing-id" type="hidden" name="listing[id]" value={{listing.id}}>
+  <input id="listing-name" type="text" name="listing[listing_name]" value={{listing.listing_name}}>
+  <input id="listing-location" type="text" name="listing[location]" value={{listing.location}}>
+  <input id="listing-date" type="date" name="listing[date]" value={{listing.date}}>
+  <input id="listing-start_time" type="time" name="listing[start_time]" value={{listing.start_time}}>
+  <input id="listing-end_time" type="time" name="listing[end_time]" value={{listing.end_time}}>
+  <input id="listing-description" type="text" name="listing[description]" value={{listing.description}}>
+  <button class="button">Update Listing</button>
+</form>
+
+<div class="one-listing">
+<h4 class="event-name"> {{listing.listing_name}} </h4>
+<hr>
+<p> Date - {{listing.date}} </p>
+<p> Location - {{listing.location}} </p>
+<p> Start Time - {{listing.start_time}} </p>
+<p> End Time - {{listing.end_time}} </p>
+<p> Description - {{listing.description}} </p>
+</div>

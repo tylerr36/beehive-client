@@ -1,0 +1,15 @@
+<h3 class="event-title">Select an event to update or delete!</h3>
+<hr>
+
+<ol>
+{{#each listings as |listing|}}
+  <li>
+    <h6>
+      <a href="" class='show-user-event' data-id='{{id}}'>
+        {{listing_name}} - {{location}}
+      </a>
+    </h6>
+  </li>
+
+{{/each}}
+</ol>
