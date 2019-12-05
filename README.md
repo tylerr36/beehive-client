@@ -25,7 +25,7 @@ After testing all CRUD actions on the backend, we built Handlebars templates for
 Our team also utilized our slack channel to communicate ideas, helpful links for a problem,
 and updates to other team members if changes were being made outside of our fixed on working hours.
 
-##Future Goals
+## Future Goals
  - We want to finish our mobile accessibility for the site (we have the landing age as a WIP)
  - We want to remove the form fields for Update/Delete Event and Create RSVP and turn them into hyperlinks to create a more user friendly site. This would also include a hidden form field for rsvps that references the listing id when used.
  - We want to utilize a calendar api in the future so that users can search by date/month and view events within, and try Moments.js to clean up the displayed times for events.
