@@ -3,7 +3,7 @@ This is a single page applicaton that allows the user to view. In addition, the 
 
 ## Important Links
   - [Deployed Web Apllication](https://ga-zero-to-hero.github.io/beehive-client/)
-  - [Deployed back end API](https://vast-depths-99590.herokuapp.com/)
+  - [Deployed back end API](https://tranquil-tor-91715.herokuapp.com/)
   - [Beehive API](https://github.com/ga-zero-to-hero/beehive-api)
 
 ## Technologies Used
